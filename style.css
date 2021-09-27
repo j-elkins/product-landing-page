@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero p,
+.hero ul li {
+  font-size: 18px;
+  color: #e5e7eb;
+  list-style-type: none;
+}
+
+.button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 7px;
+  padding: 2px 30px;
+}
+
+.button.two {
+  border: 2px solid white;
+}
+
+#one h1 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+#two {
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+}
+
+#three {
+  background-color: #3882f6;
+  border-radius: 25px;
+  color: #f9faf8;
+  padding: 40px 50px;
+  display: flex;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+}
