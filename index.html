@@ -7,60 +7,101 @@
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
       @import url("https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu:wght@300&display=swap");
     </style>
   </head>
   <body>
     <header class="hero">
-      HEADER LOGO
-      <ul>
-        <li><a href="#one"></a>header link one</li>
-        <li><a href="#two"></a>header link two</li>
-        <li><a href="#three"></a>header link three</li>
-        <!-- <li><a href="#four"></a>header link four</li> -->
-      </ul>
-      <h1>This website is awesome</h1>
-      <p>
-        This website has some subtext that goes here under the main title. It's
-        a smaller font and the color is lower contrast.
-      </p>
-      <button class="button one">Sign up</button>
-      <img src="#" alt="this is a placeholder for an image" />
+      <div class="hero-left">
+        Header Logo
+        <div class="hero-text">
+          <h1>This website is awesome</h1>
+          <p>
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast.
+          </p>
+          <button class="button one">Sign up</button>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <ul>
+          <li><a href="#one"></a>header link one</li>
+          <li><a href="#two"></a>header link two</li>
+          <li><a href="#three"></a>header link three</li>
+        </ul>
+
+        <div class="img-placeholder">
+          <p id="placeholder-text">this is a placeholder for an image</p>
+        </div>
+        <!-- <img
+          class="hero-image"
+          src="#"
+          alt="this is a placeholder for an image"
+        /> -->
+      </div>
     </header>
-    <section id="one">
-      <h1>Some random information</h1>
+    <section id="one" class="info section">
+      <h1>Some random information.</h1>
       <div class="tiles-container">
         <div class="tile">
-          <img src="#" alt="" />
-          <p>this is some text under an image</p>
+          <div class="square-icon"></div>
+          <div class="caption">
+            this is some subtext under an illustraion or image
+          </div>
         </div>
         <div class="tile">
-          <img src="#" alt="" />
-          <p>this is some text under an image</p>
+          <div class="square-icon"></div>
+          <div class="caption">
+            this is some subtext under an illustraion or image
+          </div>
         </div>
         <div class="tile">
-          <img src="#" alt="" />
-          <p>this is some text under an image</p>
+          <div class="square-icon"></div>
+          <div class="caption">
+            this is some subtext under an illustraion or image
+          </div>
         </div>
         <div class="tile">
-          <img src="#" alt="" />
-          <p>this is some text under an image</p>
+          <div class="square-icon"></div>
+          <div class="caption">
+            this is some subtext under an illustraion or image
+          </div>
         </div>
       </div>
     </section>
-    <section id="two">
+    <section id="two" class="section">
       <p class="quote">
         This is an inspiring quote, or a testimonial from a customer. Maybe it's
         just filling up space, or maybe people will actually read it. Who knows?
-        ALl I know is that it looks nice.
+        All I know is that it looks nice.
       </p>
-      <p>-Thor, God of Thunder</p>
+      <p class="author">-Thor, God of Thunder</p>
     </section>
-    <section id="three">
-      <h1>Call to action! It's time!</h1>
-      <p>Sign up for our product by clicking that button right over there!</p>
-      <button class="button two">Sign up</button>
+    <section id="three" class="section">
+      <div class="blue-box">
+        <div class="blue-box-left">
+          <h1>Call to action! It's time!</h1>
+          <p>
+            Sign up for our product by clicking that button right over there!
+          </p>
+        </div>
+        <button class="button two">Sign up</button>
+      </div>
     </section>
-    <footer>Copyright &copy; The Odin Project 2021</footer>
+    <footer>
+      Copyright &copy; The Odin Project 2021
+      <div>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy"
+          >Dave Gandy</a
+        >
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+          >www.flaticon.com</a
+        >
+      </div>
+    </footer>
   </body>
 </html>
