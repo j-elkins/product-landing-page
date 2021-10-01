@@ -7,96 +7,129 @@
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
       @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
       @import url("https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu:wght@300&display=swap");
     </style>
   </head>
   <body>
-    <section class="hero">
+    <nav class="hero">
       <div class="header">
-        <div class="logo">Header Logo</div>
+        <div class="logo">
+          <img class="logo" src="./monstera-leaf.jpg" alt="company-logo" />
+        </div>
 
         <ul>
-          <li><a href="#one"></a>header link one</li>
-          <li><a href="#two"></a>header link two</li>
-          <li><a href="#three"></a>header link three</li>
+          <li><a href="#one">Plants!</a></li>
+          <li><a href="#two">Inspiration</a></li>
+          <li><a href="#three">Join</a></li>
         </ul>
       </div>
 
       <div class="hero-main">
         <div class="hero-left">
           <div class="hero-text">
-            <h1>This website is awesome</h1>
+            <h1>Plants are awesome.</h1>
             <p>
-              This website has some subtext that goes here under the main title.
-              It's a smaller font and the color is lower contrast.
+              They help purify our air. They reduce stress and boost
+              productivity. They bring beauty into our lives.
             </p>
-            <button class="button one">Sign up</button>
+            <p class="sub-text">
+              Click the button below to generate a random plant fact.
+            </p>
+            <button class="button one">&lt;Here&gt;</button>
           </div>
         </div>
 
         <div class="hero-right">
-          <div class="img-placeholder">
-            <p id="placeholder-text">this is a placeholder for an image</p>
-          </div>
-          <!-- <img
-          class="hero-image"
-          src="#"
-          alt="this is a placeholder for an image"
-        /> -->
+          <img
+            class="hero-image"
+            src="https://images.pexels.com/photos/1903965/pexels-photo-1903965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt="A photo of three small cacti in terracotta pots against a white background."
+          />
         </div>
       </div>
-    </section>
+    </nav>
     <section id="one" class="info section">
-      <h1>Some random information.</h1>
+      <h1>What kind of houseplant should you buy?</h1>
+
       <div class="tiles-container">
         <div class="tile">
-          <div class="square-icon"></div>
+          <img
+            src="https://images.pexels.com/photos/4207787/pexels-photo-4207787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="Small plant"
+          />
+
           <div class="caption">
-            this is some subtext under an illustraion or image
+            If you like to collect cute tiny things, this section is for you.
+            Buy one! Buy 20! Put them in every room!
           </div>
         </div>
         <div class="tile">
-          <div class="square-icon"></div>
+          <img
+            src="https://images.pexels.com/photos/4394243/pexels-photo-4394243.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            alt="Small Chichipa Cactus"
+          />
           <div class="caption">
-            this is some subtext under an illustraion or image
+            Cacti are great if you tend to forget to water your plants.
+            Actually, they like it. It reminds them of home.
           </div>
         </div>
         <div class="tile">
-          <div class="square-icon"></div>
+          <img
+            src="https://images.pexels.com/photos/2922353/pexels-photo-2922353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt="Snake Plant"
+          />
           <div class="caption">
-            this is some subtext under an illustraion or image
+            This is another low-maintenance plant with many fun names: Snake
+            Plant, Mother-in-Law's Tongue, Devil's Tongue...
           </div>
         </div>
         <div class="tile">
-          <div class="square-icon"></div>
+          <img
+            src="https://images.pexels.com/photos/3125195/pexels-photo-3125195.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            alt="Monstera Plant"
+          />
           <div class="caption">
-            this is some subtext under an illustraion or image
+            <em>Monstera deliciosa</em> are super gorgeous and can grow up to
+            15' tall indoors! Perfect for turning your city apartment into an
+            actual jungle.
           </div>
         </div>
       </div>
     </section>
     <section id="two" class="section">
-      <p class="quote">
-        This is an inspiring quote, or a testimonial from a customer. Maybe it's
-        just filling up space, or maybe people will actually read it. Who knows?
-        All I know is that it looks nice.
-      </p>
-      <p class="author">-Thor, God of Thunder</p>
+      <div class="trans-box">
+        <p class="quote">
+          “I grow plants for many reasons: to please my eye or to please my
+          soul, to challenge the elements or to challenge my patience, for
+          novelty or for nostalgia, but mostly for the joy in seeing them grow.
+          ”
+        </p>
+        <p class="author">-David Hobson</p>
+      </div>
     </section>
     <section id="three" class="section">
-      <div class="blue-box">
-        <div class="blue-box-left">
-          <h1>Call to action! It's time!</h1>
+      <div class="box">
+        <div class="box-text">
+          <h1>Hey you! It's time!</h1>
           <p>
-            Sign up for our product by clicking that button right over there!
+            If you've been waiting for a sign to buy more plants...
+            <em>this is it!</em>
+            <br />
+            Click this button to see our full inventory of beautiful houseplants
+            and find the perfect one to take home today.
           </p>
         </div>
-        <button class="button two">Sign up</button>
+        <button class="button two">Click Here</button>
       </div>
     </section>
     <footer>
       Copyright &copy; The Odin Project 2021
+      <div>
+        <a href="https://www.vecteezy.com/free-vector/nature"
+          >Nature Vectors by Vecteezy</a
+        >
       </div>
     </footer>
   </body>
